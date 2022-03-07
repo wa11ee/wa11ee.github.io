@@ -1,6 +1,6 @@
 baseurl: ""
-#theme: type-on-strap
-remote_theme: type-on-strap
+theme: type-on-strap
+#remote_theme: type-on-strap
 
 # 显示摘抄
 excerpt: true
@@ -11,7 +11,7 @@ color_theme: auto
 title: "Wall's Blog"
 avatar: assets/img/avatar.png
 favicon: assets/favicon.ico
-header_text: " "
+header_text: "Welcome"
 footer_text: Copyright 2022
 header_feature_image: assets/img/chinaguide.jpg
 header_feature_image_responsive: true

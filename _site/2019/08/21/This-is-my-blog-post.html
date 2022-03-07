@@ -146,12 +146,18 @@
             
         
             
+            
+        
+            
             <li class="separator"> | </li>
             <li>
                 <a class="clear" aria-label="Portfolio" title="Portfolio" href="/portfolio/">
                      Portfolio 
                 </a>
             </li>
+            
+            
+        
             
             
         
@@ -174,12 +180,6 @@
                     
                 </a>
             </li>
-            
-            
-        
-            
-            
-        
             
             
         
@@ -234,6 +234,70 @@ fsd</p>
 
   <!-- Social media shares -->
   
+
+<div class="share-buttons">
+    <ul class="share-buttons">
+        <li class="meta">Share</li>
+        
+        <li>
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/2019/08/21/This-is-my-blog-post.html" target="_blank"
+               title=" Facebook">
+                <i class="fab fa-facebook-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Facebook</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://twitter.com/intent/tweet?text=Hello+World%20http%3A%2F%2Flocalhost%3A4000%2F2019%2F08%2F21%2FThis-is-my-blog-post.html"
+               target="_blank" title="">
+                <i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Tweet</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.tumblr.com/share?v=3&u=http://localhost:4000/2019/08/21/This-is-my-blog-post.html&quote=Hello+World%20%7C%20Wall%27s+Blog&s="
+               target="_blank" title=" Tumblr">
+                <i class="fab fa-tumblr-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Tumblr</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://pinterest.com/pin/create/button/?url=http://localhost:4000/2019/08/21/This-is-my-blog-post.html&media=$description=123%0A"
+               target="_blank" title="">
+                <i class="fab fa-pinterest-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Pin it</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="https://www.reddit.com/submit?url=http://localhost:4000/2019/08/21/This-is-my-blog-post.html&title=Hello+World%20%7C%20Wall%27s+Blog"
+               target="_blank" title=" Reddit">
+                <i class="fab fa-reddit-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on Reddit</span>
+            </a>
+        </li>
+         
+        <li>
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/2019/08/21/This-is-my-blog-post.html&title=Hello+World%20%7C%20Wall%27s+Blog&summary=&source=http://localhost:4000/2019/08/21/This-is-my-blog-post.html"
+               target="_blank" title=" LinkedIn">
+                <i class="fab fa-linkedin fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Share on LinkedIn</span>
+            </a>
+        </li>
+          
+        <li>
+            <a href="mailto:?subject=Hello World%20%7C%20Wall's Blog&body=http://localhost:4000/2019/08/21/This-is-my-blog-post.html"
+               target="_blank" title="">
+                <i class="fas fa-envelope-square fa-2x" aria-hidden="true"></i>
+                <span class="sr-only">Email</span></a>
+        </li>
+        
+    </ul>
+</div>
+
+
 
 
    <!-- Tag list -->
@@ -295,10 +359,19 @@ fsd</p>
   }
 
   
-  .feature-image a { color: rgb(80,140,22) !important; }
+  .post-content a { color: rgb(80,140,22) !important; }
+  .share-buttons a { color: rgb(80,140,22) !important; }
+  .tag-list a:not(:hover) { color: rgb(80,140,22) !important; }
   div#post-nav a { color: rgb(80,140,22) !important; }
   footer a { color: rgb(80,140,22) !important; }
   .site-header nav a:hover {  color: rgb(80,140,22) !important; }
+  a.button:hover {
+    background: rgb(80,140,22) !important;
+    border: 1px solid rgb(80,140,22) !important;
+    color: white;
+    text-decoration: none;
+    filter: none;
+  }
   header#main {
       background-color: rgb(80,140,22) !important;
       background-image: url('');
@@ -316,6 +389,17 @@ fsd</p>
                 <ul>
                 <!-- Social icons from Font Awesome, if enabled -->
                 
+<li>
+    <a feed.xml href="/feed.xml"
+       title="Follow RSS feed"
+       target="_blank">
+        <span class="fa-stack fa-lg">
+            <i class="fas fa-circle fa-stack-2x"></i>
+            <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+        </span>
+    </a>
+</li>
+
 
 
 
