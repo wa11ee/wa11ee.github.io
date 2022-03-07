@@ -1,6 +1,6 @@
 baseurl: ""
-theme: type-on-strap
-#remote_theme: type-on-strap
+#theme: type-on-strap
+remote_theme: type-on-strap
 
 # 显示摘抄
 excerpt: true
