@@ -3,7 +3,7 @@ layout: page
 title: "相册"
 subtitle: ""
 permalink: /gallery/
-gallery_path: "assets/img"
+gallery_path: "assets/gallery"
 tags: [Page]
 ---
 
