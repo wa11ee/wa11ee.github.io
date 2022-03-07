@@ -6,4 +6,3 @@ permalink: /about/
 #feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
-<div style="text-align: center;">长沙</div>
