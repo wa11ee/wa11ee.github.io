@@ -1,1 +1,24 @@
-theme: jekyll-theme-cayman
+baseurl: "https://blog.lifeofpi.com.cn"
+theme: type-on-strap
+
+# 显示摘抄
+excerpt: true
+# 黑暗模式
+color_theme: auto
+
+# THEME-SPECIFIC CONFIGURATION
+title: "Wall's Blog"
+avatar: assets/img/avatar.png
+favicon: assets/favicon.ico
+header_text: " "
+footer_text: Copyright 2022
+header_feature_image: assets/img/chinaguide.jpg
+header_feature_image_responsive: true
+description: 分享、记录我遇到的问题
+
+# BLOG CONFIGURATION
+post_navigation: true
+paginate: 10
+paginate_path: "blog/page:num"
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+
