@@ -4,7 +4,7 @@ url: "https://blog.lifeofpi.com.cn"
 
 # THEME-SPECIFIC CONFIGURATION
 title: "Wall's Blog"
-description: "A website with blog posts and pages"      # used by search engines
+description: "分享、记录我的生活"      # used by search engines
 avatar: assets/img/avatar.png                        # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
