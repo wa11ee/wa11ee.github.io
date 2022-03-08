@@ -9,6 +9,8 @@ excerpt_separator: <!--more-->
 bootstrap: true                                   # Add bootstrap to the page
 tags: [java, http]
 ---
+HttpClient 4.3以后相较以前版本变化较多，以下代码中会例举两个大版本的实现方式  
+
 ## 一、实列化 HttpClient 对象
 <!--more-->
 ``` 
@@ -19,9 +21,9 @@ HttpClientBuilder httpClientBuilder = HttpClients.custom();
 CloseableHttpClient httpClient = httpClientBuilder.build();
 ```
 ## 二、设置超时
-ConnectTimeout： 链接建立的超时时间；  
-SocketTimeout：响应超时时间，超过此时间不再读取响应；  
-ConnectionRequestTimeout： http clilent中从connetcion pool中获得一个connection的超时时间；
+`ConnectTimeout`： 链接建立的超时时间；  
+`SocketTimeout`：响应超时时间，超过此时间不再读取响应；  
+`ConnectionRequestTimeout`： http client从connection pool中获得一个connection的超时时间；
 ```
 4.3以下
 int timeout = 5; // seconds
