@@ -9,7 +9,7 @@ excerpt_separator: <!--more-->
 bootstrap: true                                   # Add bootstrap to the page
 tags: [大数据]
 ---
-PostgresSQl是个不错的关系型数据库，得益于UDF在分析数据方面也很方便，因此很多BI应用也选做为底层存储
+PostgresSQl是个不错的关系型数据库，得益于UDF分析数据时也很方便，因此<!--more-->很多BI应用也选做为底层存储
 。阿里腾讯也在此基础上研发出来面向大数据服务的产品Hologres、Tbase  
 PostgresXL是PostgresSQL的开源分布式数据库的实现，包括分布式存储、分布式计算  [官方网站](https://www.postgres-xl.org/)
   
