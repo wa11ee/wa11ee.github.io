@@ -43,7 +43,7 @@ mkdir ~/.ssh && echo 'RSA公钥' >> ~/.ssh/authorized_keys && chmod 700 ~/.ssh &
 cd ~ && mkdir pgxl_build_dir && cd pgxl_build_dir
 ```
 
-4. **配置安装参数**
+4. **配置安装参数**  
 --with-pgport 指定pg端口
 ```
 /home/pgxl/postgres-xl-9.5r1.6/configure  --prefix=/home/pgxl/pgxl --with-pgport=15432
@@ -61,7 +61,7 @@ make install-world
 ```
 其余节点
 ```
-make install-world
+make install
 ```
 
 7. **环境变量配置**  
