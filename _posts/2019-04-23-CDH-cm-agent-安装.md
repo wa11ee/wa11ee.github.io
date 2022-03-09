@@ -20,7 +20,7 @@ tags: [大数据]
 *配置文件：*`/etc/cloudera-scm-agent/config.ini`  
 *本机信息：*`/var/lib/cloudera-scm-agent/`  
 * *uuid* 为当前节点主机ID，需要保持一致
-* *cm_guid*: cdh集群ID，需要保持一致
+* *cm_guid* cdh集群ID，需要保持一致
 
 *日志：*`/var/log/cloudera-scm-agent/cloudera-scm-agent.log`
 
@@ -38,9 +38,9 @@ tags: [大数据]
 ### 重启服务
 
 ``` 
-server启动
-/opt/cloudera-manger/cm-5.15.1/etc/init.d/cloudera-scm-server start
 agent启动
 /opt/cloudera-manager/cm-5.15.1/etc/init.d/cloudera-scm-agent start
+server启动
+/opt/cloudera-manger/cm-5.15.1/etc/init.d/cloudera-scm-server start
 ```
 重启后检查cm-agent日志服务是否启动成功
