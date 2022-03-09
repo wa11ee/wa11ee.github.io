@@ -2,6 +2,10 @@
 baseurl: ""
 url: "https://blog.lifeofpi.com.cn"
 
+# 时区
+timezone: Asia/Shanghai
+#timezone: America/Bahia
+
 # THEME-SPECIFIC CONFIGURATION
 title: "Wall's Blog"
 description: "分享、记录我的生活"      # used by search engines
@@ -12,7 +16,7 @@ favicon: assets/favicon.ico                             # Icon displayed in the 
 header_text: ""
 header_feature_image: assets/img/chinaguide.jpg
 header_feature_image_responsive: true
-footer_text: Copyright 2022
+footer_text: <a href="" target="_blank">Wall.Xue</a>&nbsp;，All rights reserved.
 
 # Blog
 excerpt: true                                           # Or "truncate" (first 250 characters), "false" to disable
@@ -32,7 +36,7 @@ color_theme: auto                                       # auto, dark or light
 comments:
   disqus_shortname:                                     # Your discus shortname for comments
   cusdis_app_id:                                        # Your cusdis data-app-id
-  utterances:                                           # Enable by filling below information. For more info, go to https://utteranc.es
+  utterances: # Enable by filling below information. For more info, go to https://utteranc.es
     repo:                                               # your public comments repository (e.g. owner/repo)
     issue-term:                                         # Issue term (e.g. "comment" consider issues with this word in the title as comments)
 
@@ -49,8 +53,8 @@ collections:
 # BUILD SETTINGS
 sass:
   style: compressed
-plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
-exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*"]
+plugins: [ jekyll-paginate, jekyll-seo-tag, jekyll-feed ]
+exclude: [ ".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*" ]
 
 # theme: type-on-strap                                  # if using the theme as a jekyll theme gem
 remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github
