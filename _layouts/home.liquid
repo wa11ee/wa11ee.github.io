@@ -22,9 +22,19 @@ layout: default
         {% endif %}
     </style>
     <div id="main" class="call-out call-out_img">
-        <h1> {{ site.header_text | default: 'now' | date: "%Y/%m/%d"}} </h1>
+        <h1 id='today'> </h1>
     </div>
 
     {% include blog/blog.liquid %}
 
 </div>
+
+<script>
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today =yyyy+'/'+ mm + '/' + dd;
+document.getElementById('today').innerText=today;
+</script>
